@@ -1,0 +1,22 @@
+# 此为注释 – 将被 Git 忽略
+# 忽略所有 .a 结尾的文件
+*.a
+# 但 lib.a 除外
+~lib*.a
+# 忽略 build/ 目录下的所有文件
+*build/
+# 忽略 *~
+*~
+# 忽略 data/ 目录下所有文件
+#data/
+# 忽略 bin/ 目录下所有文件
+*bin/
+# 忽略 qtcreator 的临时文件
+CMakeLists.txt.user
+# 忽略自动保存的文件
+*.autosave
+#忽略 opencv2.framework
+*opencv2.framework*
+
+*.DS_Store
+
