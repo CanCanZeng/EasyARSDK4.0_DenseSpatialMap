@@ -4,6 +4,14 @@ This is a sample project from EasyAR(www.easyar.cn) to show the ability of recon
 
 update: 2020.01.02 I uploaded the exported Android  and iOS package to www.fir.im, so everyone can install it from the QR code.
 
+Android:
+
+![](./androidAPK/androidAPP.png)
+
+iOS:
+
+![](./iOS/iOSAPP.png)
+
 The original project I use is EasyARSenseUnityPlugin_4.0.0-final_UnityPlugin_Samples.zip  from https://www.easyar.cn/view/download.html, but the produced project is too large for uploading to Github, I just upload the APK for the community to evaluate the result on Android phone.
 
 Please note that not all android phones are supported, since it requires motion tracking result as it’s input, only devices that are supported by EasyAR motion tracking module, ARKit or ARCore are able to run this project. 
